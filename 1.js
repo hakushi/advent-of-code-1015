@@ -8,5 +8,8 @@ for(i = 0; i<string.length; i++) {
     if(string[i] === ')') {
         floor--
     }
+    if(floor === -1) {
+        console.log(i+1)
+    }
 }
 console.log('Floor: ', floor);
